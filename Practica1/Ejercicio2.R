@@ -22,7 +22,7 @@ m3
 m4<- matrix(m1[3:4,],nrow=2,ncol=2)
 m4
 
-#Respuesta 2f: Sobreescribimos los elementos de (c) en las posiciones ( 4, 2 ) , ( 1, 2 )
+#Respuesta 2f: Sobreescribimos los elementos de (e) en las posiciones ( 4, 2 ) , ( 1, 2 )
 #( 4, 1 ) y ( 1, 1 ) con -1/2 de los dos valores en la diagonal de (e).
 m1[c(4,1),c(2,1)]<- -1/2*diag(x=m4)
 m1
